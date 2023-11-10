@@ -5,7 +5,7 @@
 <main>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="/">
-		  <img src="/logo.png" alt="Logo" width="30" height="30">
+		  <img src="/logo.png" alt="Logo" width="80" height="80">
 		</a>
 		<div class="collapse navbar-collapse">
 		  <ul class="navbar-nav mr-auto">
@@ -27,8 +27,12 @@
 
 	<div class="container">
 		<h1>Link IT</h1>
-		<!-- Plus de contenu ici -->
-	  </div>
+
+		<div class="banner">
+			<img src="https://placehold.co/600x200" alt="Bannière" class="img-fluid">
+		  </div>	
+
+	</div>
 
 
 
@@ -49,6 +53,17 @@
 		padding: 0;
 		max-width: 240px;
 		margin: 0 auto;
+	}
+
+	.banner {
+    width: 100%;
+    overflow: hidden;
+  	}
+
+	.banner img {
+		width: 100%;
+		height: auto;
+		display: block;
 	}
 
 	h1 {
